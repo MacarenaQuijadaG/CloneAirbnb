@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb Clone</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+         <!-- Navbar -->
+    <nav class="navbar">
+        <!-- Logo de Airbnb -->
+        <div class="logo">
+            <img src="https://cdn.worldvectorlogo.com/logos/airbnb.svg" alt="Logo Airbnb">
+        </div>
+
+        <!-- Menú de navegación central -->
+        <div class="menu">
+            <a href="#">Estadísticas</a>
+            <a href="#">Experiencias</a>
+        </div>
+
+        <!-- Opciones a la derecha -->
+        <div class="right">
+            <a href="#">Pon tu espacio en Airbnb</a>
+            <a href="#"><i class="fas fa-globe icon"></i></a>
+            <a href="#"><i class="fas fa-user icon"></i></a>
+        </div>
+    </nav>   
+    </header>
+ 
+
+    <!-- Banner de búsqueda -->
+    <section>
+    <div class="search-bar">
+        <div class="search-section">
+          <label for="donde">Dónde</label>
+          <input type="text" id="donde" placeholder="Explora destinos">
+        </div>
+        <div class="search-section">
+          <label for="fecha">Fecha</label>
+          <input type="text" id="fecha" placeholder="Agrega fechas">
+        </div>
+        <div class="search-section">
+          <label for="quien">Quién</label>
+          <input type="text" id="quien" placeholder="¿Cuántos?">
+        </div>
+        <button class="search-button">
+            <i class="fas fa-search"></i>
+        </button>
+      </div>
+    </section>
+      
+    
+      
+    <section class="properties">
+        <!-- 16 Cards -->
+        <div class="property">
+            <img src="https://blog.fincaraiz.com.co/wp-content/uploads/2022/08/casas-modernas-1-1536x904.jpg" alt="Casa">
+            <h2>Casa Moderna</h2>
+            <p class="details">5 km de la ciudad</p>
+            <p class="details"> Disponible del 1 al 10 de abril</p>
+            <p class="price">$120 por noche</p>
+        </div>
+        <div class="property">
+            <img src="https://blog.fincaraiz.com.co/wp-content/uploads/2022/08/casas-modernas-1-1536x904.jpg" alt="Apartamento">
+            <h2>Apartamento Céntrico</h2>
+            <p class="details">2 km de la ciudad</p>
+            <p class="details">Disponible del 5 al 15 de abril</p>
+            <p class="price">$90 por noche</p>
+        </div>
+        <div class="property">
+            <img src="https://blog.fincaraiz.com.co/wp-content/uploads/2022/08/casas-modernas-1-1536x904.jpg" alt="Villa">
+            <h2>Villa de Lujo</h2>
+            <p class="details">10 km de la playa</p>
+            <p class="details">Disponible del 10 al 20 de abril</p>
+            <p class="price">$200 por noche</p>
+        </div>
+        <div class="property">
+            <img src="https://blog.fincaraiz.com.co/wp-content/uploads/2022/08/casas-modernas-1-1536x904.jpg" alt="Cabaña">
+            <h2>Cabaña en el Bosque</h2>
+            <p class="details">20 km del parque nacional</p>
+            <p class="details">Disponible del 3 al 12 de abril</p>
+            <p class="price">$80 por noche</p>
+        </div>
+        <div class="property">
+            <img src="https://blog.fincaraiz.com.co/wp-content/uploads/2022/08/casas-modernas-1-1536x904.jpg" alt="Hotel">
+            <h2>Hotel 5 Estrellas</h2>
+            <p class="details">5 km del centro comercial</p>
+            <p class="details">Disponible del 7 al 17 de abril</p>
+            <p class="price">$250 por noche</p>
+        </div>
+        <div class="property">
+            <img src="https://blog.fincaraiz.com.co/wp-content/uploads/2022/08/casas-modernas-1-1536x904.jpg" alt="Resort">
+            <h2>Resort de Playa</h2>
+            <p class="details">A orillas del mar</p>
+            <p class="details">Disponible todo el mes de abril</p>
+            <p class="price">$300 por noche</p>
+        </div>
+        <div class="property">
+            <img src="https://blog.fincaraiz.com.co/wp-content/uploads/2022/08/casas-modernas-1-1536x904.jpg" alt="Bungalow">
+            <h2>Bungalow Rústico</h2>
+            <p class="details">8 km de la ciudad</p>
+            <p class="details">Disponible del 12 al 22 de abril</p>
+            <p class="price">$110 por noche</p>
+        </div>
+        <div class="property">
+            <img src="https://blog.fincaraiz.com.co/wp-content/uploads/2022/08/casas-modernas-1-1536x904.jpg" alt="Loft">
+            <h2>Loft Urbano</h2>
+            <p class="details">1 km del centro</p>
+            <p class="details">Disponible del 4 al 14 de abril</p>
+            <p class="price">$95 por noche</p>
+        </div>
+        <div class="property">
+            <img src="https://blog.fincaraiz.com.co/wp-content/uploads/2022/08/casas-modernas-1-1536x904.jpg" alt="Casa de Campo">
+            <h2>Casa de Campo</h2>
+            <p class="details">15 km de la ciudad</p>
+            <p class="details">Disponible del 2 al 10 de abril</p>
+            <p class="price">$85 por noche</p>
+        </div>
+        <div class="property">
+            <img src="https://blog.fincaraiz.com.co/wp-content/uploads/2022/08/casas-modernas-1-1536x904.jpg" alt="Chalet">
+            <h2>Chalet Alpino</h2>
+            <p class="details">30 km de la montaña</p>
+            <p class="details">Disponible del 6 al 16 de abril</p>
+            <p class="price">$130 por noche</p>
+        </div>
+        <div class="property">
+            <img src="https://blog.fincaraiz.com.co/wp-content/uploads/2022/08/casas-modernas-1-1536x904.jpg" alt="Mansión">
+            <h2>Mansión Exclusiva</h2>
+            <p class="details">5 km del lago</p>
+            <p class="details">Disponible del 10 al 20 de abril</p>
+            <p class="price">$500 por noche</p>
+        </div>
+        <div class="property">
+            <img src="https://blog.fincaraiz.com.co/wp-content/uploads/2022/08/casas-modernas-1-1536x904.jpg" alt="Casa de Granja">
+            <h2>Casa de Granja</h2>
+            <p class="details">40 km de la ciudad</p>
+            <p class="details">Disponible todo el mes de abril</p>
+            <p class="price">$75 por noche</p>
+        </div>
+        <div class="property">
+            <img src="https://blog.fincaraiz.com.co/wp-content/uploads/2022/08/casas-modernas-1-1536x904.jpg" alt="Casa Adosada">
+            <h2>Casa Adosada</h2>
+            <p class="details">10 km del centro</p>
+            <p class="details">Disponible del 8 al 18 de abril</p>
+            <p class="price">$140 por noche</p>
+        </div>
+        <div class="property">
+            <img src="https://blog.fincaraiz.com.co/wp-content/uploads/2022/08/casas-modernas-1-1536x904.jpg" alt="Tiny House">
+            <h2>Tiny House</h2>
+            <p class="details">5 km de la playa</p>
+            <p class="details">Disponible del 2 al 12 de abril</p>
+            <p class="price">$60 por noche</p>
+        </div>
+        <div class="property">
+            <img src="https://blog.fincaraiz.com.co/wp-content/uploads/2022/08/casas-modernas-1-1536x904.jpg" alt="Casa en Árbol">
+            <h2>Casa en el Árbol</h2>
+            <p class="details">50 km de la ciudad</p>
+            <p class="details">Disponible del 9 al 19 de abril</p>
+            <p class="price">$100 por noche</p>
+        </div>
+        <div class="property">
+            <img src="https://blog.fincaraiz.com.co/wp-content/uploads/2022/08/casas-modernas-1-1536x904.jpg" alt="Casa en Árbol">
+            <h2>Casa en el Árbol</h2>
+            <p class="details">50 km de la ciudad</p>
+            <p class="details">Disponible del 9 al 19 de abril</p>
+            <p class="price">$100 por noche</p>
+        </div>
+    </section>
+   <script src="assets/js/script.js"></script>
+</body>
+</html>
