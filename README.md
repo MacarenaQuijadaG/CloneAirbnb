@@ -20,8 +20,4 @@ Este es un clon de la página web de Airbnb desarrollado con HTML, CSS y JavaScr
 - Efectos visuales y animaciones en CSS.
 - Funcionalidades básicas en JavaScript como filtrado y botones interactivos.
 
-## 🚀 Instalación y Uso
 
-1. Clonar el repositorio:
-   ```sh
-   git clone https://github.com/MacarenaQuijadaG/CloneAirbnb.git
