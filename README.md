@@ -35,5 +35,5 @@ El objetivo de este proyecto es replicar la apariencia y algunas funcionalidades
 1. Clona este repositorio en tu máquina local:  
    ```bash
    git clone https://github.com/MacarenaQuijadaG/CloneAirbnb.git
-´´´
+
 
